@@ -1,8 +1,36 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 /* Add your CSS here */
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightblue;
+  margin: 10px;
+
+}
+
+span {
+
+  width: 10px;
+  height: 10px;
+
+}
